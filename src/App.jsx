@@ -8,8 +8,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Timer />} />
-        <Route path='/homepage' element={<Homepage />} />
+        <Route path='/'element={<Homepage />}  />
+        <Route path='/timer' element={<Timer />} />
       </Routes>
     </BrowserRouter>
   );
